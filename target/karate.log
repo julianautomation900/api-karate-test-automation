@@ -1,0 +1,26 @@
+11:43:22.458 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @create_successful_pet
+11:43:24.374 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:43:24.390 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:43:27.092 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+11:43:27.941 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:3000/pets
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/19.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Bingo3","type":"Perro","age":1}
+
+11:43:28.472 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 526
+1 < 201
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 111
+1 < ETag: W/"6f-vyI4pOb8viGfBERczEDwf5FJxmI"
+1 < Date: Tue, 09 Dec 2025 16:43:28 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"status":"success","message":"Pet created","data":{"id":1765298608427,"name":"Bingo3","type":"Perro","age":1}}
+
+11:43:29.577 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 6 (4 remaining) classpath:examples/pets/createNewPets.feature

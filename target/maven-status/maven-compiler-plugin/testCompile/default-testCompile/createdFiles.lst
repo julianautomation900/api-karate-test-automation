@@ -1,0 +1,6 @@
+examples\pets\PetsRunner.class
+examples\authentication\AuthenticationRunner.class
+examples\ExamplesTest.class
+examples\pets\DeletePetsRunner.class
+examples\pets\SearchPetsRunner.class
+examples\pets\CreateNewPetRunner.class
