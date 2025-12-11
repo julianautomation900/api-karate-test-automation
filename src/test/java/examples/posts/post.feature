@@ -4,7 +4,9 @@ Feature:  Get all posts
     * url "https://jsonplaceholder.typicode.com/"
     * path "posts"
 
+  @github_actions
   Scenario: Get all posts
     Given method get
     Then status 200
+
 
